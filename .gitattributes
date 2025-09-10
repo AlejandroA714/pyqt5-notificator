@@ -1,2 +1,18 @@
-*.py linguist-detectable=true
+# 📌 Ignorar archivos autogenerados de PyQt5
+*_ui.py linguist-generated
+*_rc.py linguist-generated
+notificator/resources/resources.py linguist-generated
+
+# 📌 Ignorar cachés y compilados
+__pycache__/** linguist-generated
+*.pyc linguist-generated
+
+# 📌 Ignorar builds y distribuciones
+build/** linguist-generated
+dist/** linguist-generated
+
+# 📌 Ignorar notebooks (si llegas a usarlos)
 *.ipynb linguist-detectable=false
+
+# ✅ Mantener detectables los .py reales
+*.py linguist-detectable=true
