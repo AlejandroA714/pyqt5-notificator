@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 .DS_Store
+.resources.py
 
 # vs code files
 .vscode
